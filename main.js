@@ -27,11 +27,11 @@ buttons.forEach((button) => {
   button.addEventListener("mouseup", unClick);
 });
 
-plusButton.addEventListener("touchstart", clickPlusButton);
+//plusButton.addEventListener("touchstart", clickPlusButton);
 plusButton.addEventListener("mousedown", clickPlusButton);
 
-minusButton.addEventListener("touchstart", clickMinusButton);
+//minusButton.addEventListener("touchstart", clickMinusButton);
 minusButton.addEventListener("mousedown", clickMinusButton);
 
-resetButton.addEventListener("touchstart", clickResetButton);
+//resetButton.addEventListener("touchstart", clickResetButton);
 resetButton.addEventListener("mousedown", clickResetButton);
