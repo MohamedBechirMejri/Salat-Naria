@@ -11,7 +11,7 @@ body {
  background-color: #1D7C48;
  color: rgb(255, 255, 255);
  /*color: #FAFAFA;*/
- text-shadow: 0 0 2px;
+/* text-shadow: 0 0 2px;*/
 }
 
 #buttons {
@@ -46,13 +46,13 @@ button {
 
 h2 {
  font-size: 2rem;
- width: 75vw;
+ width: 80vw;
  height: auto;
  text-align: justify;
  text-align: center;
  direction: rtl;
  line-height: 4.25rem;
- margin-top: 10vh;
+ margin-top: 5vh;
  padding: 0;
 }
 
