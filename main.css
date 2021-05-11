@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+
+body {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ font-family: 'Amiri';
+
+ background-color: rgb(57, 104, 59);
+ background-color: #1D7C48;
+ color: rgb(255, 255, 255);
+ /*color: #FAFAFA;*/
+ text-shadow: 0 0 2px;
+}
+
+#buttons {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+}
+
+h3 {
+ font-size: 2rem;
+ padding-left: 1em;
+ padding-right: 1em;
+}
+
+button {
+ font-size: 1rem;
+ font-weight: bold;
+ margin: 1.25rem;
+ width: 17vw;
+ height: 7vh;
+
+ border: none;
+ border-radius: 5rem;
+ background-color: rgb(aliceblue, 255, 255);
+ /*background-color: #FAFAFA;*/
+ color: rgb(57, 104, 59);
+ color: #1D7C48;
+
+}
+
+h2 {
+ font-size: 2rem;
+ width: 75vw;
+ height: auto;
+ text-align: justify;
+ text-align: center;
+ direction: rtl;
+ line-height: 4.25rem;
+ margin-top: 10vh;
+ padding: 0;
+}
+
+h1 {
+ flex-grow: 1;
+ flex-shrink: 1;
+ padding-right: 1rem;
+ padding-left: 1rem;
+ border-radius: 0.3rem;
+
+ background-color: aliceblue;
+ /*background-color: #FAFAFA;*/
+ color: rgb(57, 104, 59);
+
+ color: #1D7C48;
+}
+
+a {
+ background-color: aliceblue;
+ color: #1D7C48;
+ padding: 0.1rem 0.25rem;
+ border-radius: 0.25em;
+ text-decoration: none;
+}
+
+footer {
+ position: relative;
+ bottom: -5rem;
+}
+footer, a {
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.clicked {
+ transition: all 0.15s;
+ animation: click 100000s;
+}
+@keyframes click {
+ 0% {border: solid blue;}
+ 50% {}
+ 100% {}
+}
